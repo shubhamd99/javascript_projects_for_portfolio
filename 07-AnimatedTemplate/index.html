@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Tailwind Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
 </head>
@@ -21,7 +23,7 @@
           <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
                 <!-- Nav Title -->
-                Creative Tim
+                Animated Template
               </a>
               <!-- Hamburger Menu (Mobile) -->
               <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
@@ -70,7 +72,7 @@
       <!-- Background Image -->
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="">
+        style="background: url(https://images.unsplash.com/photo-1654455103120-e33ac58ab56a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2429&q=80) center center;">
         <!-- Overlay -->
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
@@ -79,10 +81,10 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">
-                Welcome your epiphany.
+              <h1 class="text-white font-semibold text-5xl" data-aos="fade-up">
+                Welcome Shubham D.
               </h1>
-              <p class="mt-4 text-lg text-gray-300">
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay="1000">
                 Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
               </p>
             </div>
@@ -115,7 +117,7 @@
     <!-- Services Section -->
     <section class="pb-20 bg-gray-300 -mt-24">
       <!-- 3 Card Section -->
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4" data-aos="fade-right" data-aos-delay="1200">
         <div class="flex flex-wrap">
           <!-- Card -->
           <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -134,7 +136,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="w-full md:w-4/12 px-4 text-center">
+          <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-up" data-aos-delay="1400">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
@@ -150,7 +152,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1600">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
@@ -170,7 +172,7 @@
         <!-- Text Box and Card Container -->
         <div class="flex flex-wrap items-center mt-32">
           <!-- Text Box Container -->
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto" data-aos="zoom-in-right">
             <!-- Text Box -->
             <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
               <!-- Icon -->
@@ -193,12 +195,12 @@
           </div>
 
           <!-- Image Cap & Text Card -->
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="flip-left" data-aos-delay="1000">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://images.unsplash.com/photo-1654510916856-7533a3b4c368?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
                 class="w-full align-middle rounded-t-lg"
               />
               <blockquote class="relative p-8 mb-4">
@@ -255,16 +257,16 @@
       <!-- Section Container -->
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
-          <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right" data-aos-delay="1000"> 
             <!-- Image -->
             <img
               alt="..."
               class="max-w-full rounded-lg shadow-lg"
-              src=""
+              src="https://images.unsplash.com/photo-1654496613457-9d439825b674?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
             />
           </div>
           <!-- Text Box Container-->
-          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="zoom-in-left">
             <div class="md:pr-12">
               <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
                 <!-- Icon -->
@@ -346,12 +348,12 @@
         <!-- Flex Row Container -->
         <div class="flex flex-wrap">
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in">
             <div class="px-6">
               <!-- Image -->
               <img
                 alt="..."
-                src=""               
+                src="https://randomuser.me/api/portraits/women/66.jpg"               
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -379,12 +381,12 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="400">
             <div class="px-6">
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/76.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -408,12 +410,12 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="600">
             <div class="px-6">
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/24.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -441,12 +443,12 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="800">
             <div class="px-6">
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/60.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -739,6 +741,16 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
+<!-- AOS Library Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script defer>
+  AOS.init({
+    delay: 200,
+    duration: 1500,
+    once: false,
+    mirror: false,
+  });
+</script>
 <!-- Navigation Script -->
 <script>
   function toggleNavbar(collapseID) {
