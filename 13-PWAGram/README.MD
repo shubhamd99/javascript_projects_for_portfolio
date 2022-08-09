@@ -43,3 +43,19 @@ A polyfill is a piece of code (usually JavaScript on the Web) used to provide mo
 
 For example, a polyfill could be used to mimic the functionality of a text-shadow in IE7 using proprietary IE filters, or mimic rem units or media queries by using JavaScript to dynamically adjust the styling as appropriate, or whatever else you require.
 
+### Static Caching
+
+Static caching is when a browser requests a resource, the server providing the resource can tell the browser how long it should temporarily store or cache the resource. For any subsequent request for that resource, the browser uses its local copy, rather than going to the network to fetch it.
+
+### Dynamic Caching
+
+Dynamic content is content that changes based on factors specific to the user such as time of visit, location, and device. A dynamic webpage will not look the same for everybody, and it can change as users interact with it – like if a newspaper could rewrite itself as someone is reading it. This makes webpages more personalized and more interactive.
+
+
+### waitUntil
+
+The ExtendableEvent.waitUntil() method tells the event dispatcher that work is ongoing. It can also be used to detect whether that work was successful. In service workers, waitUntil() tells the browser that work is ongoing until the promise settles, and it shouldn't terminate the service worker if it wants that work to complete.
+
+### response.clone()
+
+The clone() method of the Response interface creates a clone of a response object, identical in every way, but stored in a different variable.
